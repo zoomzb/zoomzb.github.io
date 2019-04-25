@@ -330,7 +330,9 @@ main {
   height: 60px;
   border-bottom: #FAFAFA solid 2px;
   padding-left: 10px;
-  background: #FAFAFA;
+  /*background: #FAFAFA;*/
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(50px);
   z-index: 300; }
   @media screen and (max-width: 768px) {
     .site-header {
