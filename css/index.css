@@ -16,7 +16,24 @@ body, input, label, select, option, textarea, button, fieldset, legend {
 body {
   margin: 0;
   padding: 0;
-  background: #FAFAFA; }
+  background: #FAFAFA; 
+
+}
+
+@media screen and (min-width:1200px) {
+    body {
+      background-image:url(/zoomzb.github.io/images/bg.jpg);
+      background-repeat: no-repeat;
+      background-attachment:fixed;
+      background-position:0 60px; 
+      background-blend-mode: luminosity;
+      background-size:cover;
+    }
+    img{
+      filter: grayscale(100%);
+      -webkit-filter:grayscale(100%);
+    }
+}
 
 a {
   color: #212121;
@@ -330,9 +347,9 @@ main {
   height: 60px;
   border-bottom: #FAFAFA solid 2px;
   padding-left: 10px;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.1);
   -webkit-backdrop-filter: blur(20px);
-  z-index: 101; }
+  z-index: 300; }
 
   .content-blurred {
       position:relative;
