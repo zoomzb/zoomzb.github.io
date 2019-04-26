@@ -29,10 +29,10 @@ body {
       background-blend-mode: luminosity;
       background-size:cover;
     }
-    img{
+    /*img{
       filter: grayscale(100%);
       -webkit-filter:grayscale(100%);
-    }
+    }*/
 }
 
 a {
